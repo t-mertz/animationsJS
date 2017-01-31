@@ -1,0 +1,39 @@
+div.container {
+    position: relative;
+}
+
+div.animation {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin: 4em;
+}
+
+.container .animation .circle {
+    height: 50px; width: 50px;
+    border: 4px solid blue;
+    border-radius: 50%;
+    background-color: lightblue;
+}
+
+.arc {
+    overflow: hidden;
+    position: absolute;
+    top: -4px;
+    right: 50%;
+    bottom: 50%;
+    left: -4px;
+}
+
+.animation .round-dot {
+    height: 1em; width: 1em;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.animation .square-dot {
+    height: 1em; width: 1em;
+    background-color: grey;
+    position: absolute;
+    left: 0em;
+}
