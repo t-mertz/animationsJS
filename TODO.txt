@@ -1,3 +1,4 @@
 1. dots moving in circle
 2. circle fill, defill cycle
 3. flashing red light - error indicator
+4. flashing text
